@@ -1,4 +1,5 @@
 ﻿using LXP.Common.Entities;
+using LXP.Common.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,6 @@ namespace LXP.Data.IRepository
         Task AddCourse(Course course);
         bool AnyCourseByCourseTitle(string CourseTitle);
 
-        Task<List<Course>> GetAllCourseDetails();
+        IEnumerable<CourseListViewModel> GetAllCourseDetails();
     }
 }

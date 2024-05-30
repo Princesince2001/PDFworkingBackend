@@ -47,13 +47,13 @@ namespace LXP.Api.Controllers
 
         [HttpGet("/lxp/view/course")]
 
-        public async Task<IActionResult> GetAllCourseDetails()
+        public IActionResult GetAllCourseDetails()
         {
-            List<CourseListViewModel> course = await _courseServices.GetAllCourseDetails();
+            var course = _courseServices.GetAllCourseDetails();
             return Ok(CreateSuccessResponse(course));
 
-
         }
+
 
     }
 }

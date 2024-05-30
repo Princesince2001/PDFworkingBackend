@@ -13,6 +13,6 @@ namespace LXP.Core.IServices
         Course GetCourseByCourseId(string courseId);
         bool AddCourse(CourseViewModel course);
 
-        Task<List<CourseListViewModel>> GetAllCourseDetails();
+        IEnumerable<CourseListViewModel> GetAllCourseDetails();
     }
 }

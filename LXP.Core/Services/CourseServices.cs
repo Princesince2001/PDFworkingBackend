@@ -112,36 +112,9 @@ namespace LXP.Core.Services
 
         }
 
-        public async Task<List<CourseListViewModel>> GetAllCourseDetails()
+        public IEnumerable<CourseListViewModel> GetAllCourseDetails()
         {
-            List<Course> courses = await _courseRepository.GetAllCourseDetails();
-            //List<CourseViewModel> course =  _courseMapper.Map<List<Course>,List<CourseViewModel>>(await _courseRepository.GetAllCourseDetails());
-            List<CourseListViewModel> courseViewModels = new List<CourseListViewModel>();
-
-
-            foreach (var course in courses)
-            {
-
-
-                var courseViewModel = new CourseListViewModel
-                {
-                    CourseId = course.CourseId,
-                    Title = course.Title,
-                    Description = course.Description,
-                    Catagory = course.Catagory.CatagoryId.ToString(),
-                    Level = course.Level.LevelId.ToString(),
-                    Duration = course.Duration,
-                    Thumbnailimage = String.Format("{0}://{1}{2}/wwwroot/CourseThumbnailImages/{3}",
-                                                _contextAccessor.HttpContext.Request.Scheme,
-                                                _contextAccessor.HttpContext.Request.Host,
-                                                _contextAccessor.HttpContext.Request.PathBase,
-                                                course.Thumbnail)
-
-                };
-                courseViewModels.Add(courseViewModel);
-
-            }
-            return courseViewModels;
+            return _courseRepository.GetAllCourseDetails();
         }
     }
 }

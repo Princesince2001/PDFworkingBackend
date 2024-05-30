@@ -27,6 +27,11 @@ builder.Host.UseSerilog(); // Set up Serilog as the logging provider
 //{
 //    options.Filters.Add<ApiExceptionInterceptor>();
 //});
+
+builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<ILoginRepository, LoginRepository>();
+
+
 builder.Services.AddScoped<ICategoryServices, CategoryServices>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddSingleton<LXPDbContext>();
@@ -56,7 +61,7 @@ builder.Services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
 builder.Services.AddScoped<ICourseServices, CourseServices>();
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddScoped<IEmailService, EmailService>();
-builder.Services.AddSingleton<LXPDbContext>();
+builder.Services.AddScoped<LXPDbContext>();
 builder.Services.AddHttpContextAccessor();//nrw HTTP
 
 builder.Services.AddCors(options =>

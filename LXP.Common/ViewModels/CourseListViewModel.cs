@@ -34,7 +34,7 @@ namespace LXP.Common.ViewModels
         ///</Summary>
         ///<example>Technical</example>
 
-        public string? Catagory { get; set; }
+        public string? Category { get; set; }
 
         ///<Summary>
         ///Course Description
@@ -55,5 +55,17 @@ namespace LXP.Common.ViewModels
         ///</Summary>
         ///<example>Image with filesize less than 250kb and file extension jpeg or png</example>
         public string Thumbnailimage { get; set; }
+
+        public bool IsActive { get; set; }
+
+        public bool IsAvailable { get; set; }
+
+        public string CreatedBy { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+
+        public string? ModifiedBy { get; set; } = null!;
+
+        public DateTime? ModifiedAt { get; set; } = null!;
     }
 }

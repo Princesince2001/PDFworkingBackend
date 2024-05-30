@@ -7,15 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using LXP.Common.ViewModels;
 
 namespace LXP.Data.Repository
 {
     public class CourseRepository : ICourseRepository
     {
         private readonly LXPDbContext _lXPDbContext;
-        public CourseRepository(LXPDbContext lXPDbContext)
+        private readonly IWebHostEnvironment _environment;
+        private readonly IHttpContextAccessor _contextAccessor;
+        public CourseRepository(LXPDbContext lXPDbContext, IWebHostEnvironment environment, IHttpContextAccessor httpContextAccessor)
         {
             this._lXPDbContext = lXPDbContext;
+            _environment = environment;
+            _contextAccessor = httpContextAccessor;
         }
         public Course GetCourseDetailsByCourseId(Guid CourseId)
         {
@@ -33,11 +40,32 @@ namespace LXP.Data.Repository
             return _lXPDbContext.Courses.Any(course => course.Title == CourseTitle);
         }
 
-        public async Task<List<Course>> GetAllCourseDetails()
+        public IEnumerable<CourseListViewModel> GetAllCourseDetails()
         {
-            return  await _lXPDbContext.Courses.Include(c => c.Catagory).Include(c => c.Level).ToListAsync();
+            return _lXPDbContext.Courses
+               .Select(c => new CourseListViewModel
+               {
+                   CourseId = c.CourseId,
+                   Title = c.Title,
+                   Description = c.Description,
+                   Level = c.Level.Level,
+                   Category = c.Catagory.Category,
+                   Duration = c.Duration,
+                   CreatedAt = c.CreatedAt,
+                   CreatedBy = c.CreatedBy,
+                   Thumbnailimage = String.Format("{0}://{1}{2}/wwwroot/CourseThumbnailImages/{3}",
+                                                    _contextAccessor.HttpContext.Request.Scheme,
+                                                    _contextAccessor.HttpContext.Request.Host,
+                                                    _contextAccessor.HttpContext.Request.PathBase,
+                                                    c.Thumbnail),
+
+
+               })
+             .ToList();
+
 
         }
 
     }
+
 }
