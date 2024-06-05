@@ -47,6 +47,7 @@ namespace LXP.Data.Repository
                          where enrollment.LearnerId == learnerId
                          select new
                          {
+                            enrollmentid=enrollment.EnrollmentId,
                              enrolledCourseId = enrollment.CourseId,
                              enrolledCoursename = enrollment.Course.Title,
                              enrolledcoursedescription = enrollment.Course.Description,
