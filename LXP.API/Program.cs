@@ -30,6 +30,9 @@ builder.Services.AddCors(options =>
 #endregion
 // Add services to the container.
 // Add services to the container.
+//builder.Services.AddScoped<ILearnerDashboardRepository, LearnerDashboardRepository>();
+//builder.Services.AddScoped<ILearnerDashboardService, LearnerDashboardService>();
+
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 builder.Services.AddScoped<IForgetRepository, ForgetRepository>();
@@ -61,11 +64,15 @@ builder.Services.AddScoped<IUserReportRepository, UserReportRepository>();
 //Learner
 builder.Services.AddScoped<ILearnerServices, LearnerServices>();
 builder.Services.AddScoped<ILearnerRepository, LearnerRepository>();
-builder.Services.AddScoped<ILearnerAttemptRepository, LearnerAttemptRepository>();
+builder.Services.AddScoped<ILearnerDashboardService, LearnerDashboardService>();
+builder.Services.AddScoped<ILearnerDashboardRepository, LearnerDashboardRepository>();
 builder.Services.AddScoped<ILearnerAttemptServices, LearnerAttemptServices>();
+builder.Services.AddScoped<ILearnerAttemptRepository, LearnerAttemptRepository>();
+
+
+
 
 builder.Services.AddScoped<LXPDbContext>();
-
 
 
 //Quiz 
@@ -170,11 +177,11 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = "/wwwroot/CourseThumbnailImages"
 });
 
-app.UseStaticFiles(new StaticFileOptions
-{
-    FileProvider = new PhysicalFileProvider(Path.Combine(app.Environment.WebRootPath, "LearnerProfileImages")),
-    RequestPath = "/wwwroot/LearnerProfileImages"
-});
+//app.UseStaticFiles(new StaticFileOptions
+//{
+//    FileProvider = new PhysicalFileProvider(Path.Combine(app.Environment.WebRootPath, "LearnerProfileImages")),
+//    RequestPath = "/wwwroot/LearnerProfileImages"
+//});
 
 app.UseStaticFiles(new StaticFileOptions
 {

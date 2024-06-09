@@ -35,7 +35,10 @@ namespace LXP.Data.Repository
                              LearnerId=attempt.LearnerId,
                              TopicName=topic.Name,
                              TopicId=topic.TopicId,
-                             CourseId=course.CourseId
+                             CourseId=course.CourseId,
+                             PassMark = quiz.PassMark,
+                             Createdat=quiz.CreatedAt
+
                          };
 
             return result;

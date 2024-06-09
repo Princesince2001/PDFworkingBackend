@@ -48,6 +48,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\2cfb9a52-befe-4194-bb24-353a39999cd4_HTML5.pptx))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\3a58ac67-c9a3-4eb7-b3c0-aadafdb6f596_slides.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseMaterial/3a58ac67-c9a3-4eb7-b3c0-aadafdb6f596_slides.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\3a58ac67-c9a3-4eb7-b3c0-aadafdb6f596_slides.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\56f5144f-67ec-4eac-bb2b-d32a7af5ec5f_Template (2) (1).pdf))">
       <SourceType>Package</SourceType>
       <SourceId>LXP.Api</SourceId>
@@ -256,6 +272,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\bca25a8f-e2ad-4ef4-9f10-19b92d1c5f77_Sample Presentation.pptx))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\be3403be-f33a-4da6-bff9-2bc09041e7e7_SPA BOOKING SYSTEM OVERALL.docx))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseMaterial/be3403be-f33a-4da6-bff9-2bc09041e7e7_SPA BOOKING SYSTEM OVERALL.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\be3403be-f33a-4da6-bff9-2bc09041e7e7_SPA BOOKING SYSTEM OVERALL.docx))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\be3403be-f33a-4da6-bff9-2bc09041e7e7_SPA BOOKING SYSTEM OVERALL.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseMaterial/be3403be-f33a-4da6-bff9-2bc09041e7e7_SPA BOOKING SYSTEM OVERALL.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\be3403be-f33a-4da6-bff9-2bc09041e7e7_SPA BOOKING SYSTEM OVERALL.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\c01b3d3c-8c57-4ef5-9fd0-394d2abf5353_Spa Booking system.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseMaterial/c01b3d3c-8c57-4ef5-9fd0-394d2abf5353_Spa Booking system.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\c01b3d3c-8c57-4ef5-9fd0-394d2abf5353_Spa Booking system.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\c88e0615-eff7-413f-9f68-95a3a8a2165f_Forming habits.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>LXP.Api</SourceId>
@@ -320,6 +384,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\dfdfe280-a9f6-4c64-91ff-f1e6dac4b002_Sample Presentation.pptx))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\e0bd5826-9fba-45a4-afbc-40bfa91c2ac5_DesignPatterns in .Net.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseMaterial/e0bd5826-9fba-45a4-afbc-40bfa91c2ac5_DesignPatterns in .Net.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\e0bd5826-9fba-45a4-afbc-40bfa91c2ac5_DesignPatterns in .Net.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\e0bd5826-9fba-45a4-afbc-40bfa91c2ac5_DesignPatterns in .Net.pptx))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseMaterial/e0bd5826-9fba-45a4-afbc-40bfa91c2ac5_DesignPatterns in .Net.pptx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\e0bd5826-9fba-45a4-afbc-40bfa91c2ac5_DesignPatterns in .Net.pptx))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\f1e89012-1c08-426b-a864-67070921d26b_powerpoint_hyperlinks_practice.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>LXP.Api</SourceId>
@@ -352,6 +448,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseMaterial\f1e89012-1c08-426b-a864-67070921d26b_powerpoint_hyperlinks_practice.pptx))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\2a039da9-10ca-4941-a0ea-7d2a81b5107e_java5.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseThumbnailImages/2a039da9-10ca-4941-a0ea-7d2a81b5107e_java5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\2a039da9-10ca-4941-a0ea-7d2a81b5107e_java5.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\3d8a4ab7-2d81-4d8c-8b1d-984f4b3640cb_C#.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseThumbnailImages/3d8a4ab7-2d81-4d8c-8b1d-984f4b3640cb_C#.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\3d8a4ab7-2d81-4d8c-8b1d-984f4b3640cb_C#.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\544d9c20-eed4-456c-844a-7524e149c42a_Rust.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseThumbnailImages/544d9c20-eed4-456c-844a-7524e149c42a_Rust.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\544d9c20-eed4-456c-844a-7524e149c42a_Rust.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\653c566f-a873-4a0e-bb58-64298e337d4d_download.png))">
       <SourceType>Package</SourceType>
       <SourceId>LXP.Api</SourceId>
@@ -367,6 +511,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\653c566f-a873-4a0e-bb58-64298e337d4d_download.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\d2681c17-6e5d-440f-9dd3-802e2879ae52_c++.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseThumbnailImages/d2681c17-6e5d-440f-9dd3-802e2879ae52_c++.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\d2681c17-6e5d-440f-9dd3-802e2879ae52_c++.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\e683524b-194e-4804-8725-652e8c145f5d_images (5).png))">
       <SourceType>Package</SourceType>
@@ -400,6 +560,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\ed21ce31-b535-43f6-a64f-73ff560d58dd_cobol.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\edae97b2-3df0-4d3c-91be-3fa8d3b52fc0_htmlonee.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseThumbnailImages/edae97b2-3df0-4d3c-91be-3fa8d3b52fc0_htmlonee.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\edae97b2-3df0-4d3c-91be-3fa8d3b52fc0_htmlonee.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\f1e66adb-e2a2-4de3-b61c-eaf8dd33ce62_html.jfif))">
       <SourceType>Package</SourceType>
       <SourceId>LXP.Api</SourceId>
@@ -431,6 +607,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\f34cb0ce-ee36-48fc-ae41-7ad15908f1ee_test.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\f44b46dd-20fe-4f95-afeb-3b789fffa352_Linq.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>LXP.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LXP.Api</BasePath>
+      <RelativePath>CourseThumbnailImages/f44b46dd-20fe-4f95-afeb-3b789fffa352_Linq.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\CourseThumbnailImages\f44b46dd-20fe-4f95-afeb-3b789fffa352_Linq.jfif))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\24c49111-eb38-4b55-bf45-ebddbce80d18_K1.jpg))">
       <SourceType>Package</SourceType>

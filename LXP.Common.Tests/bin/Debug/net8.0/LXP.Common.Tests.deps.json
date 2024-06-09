@@ -9,13 +9,13 @@
       "LXP.Common.Tests/1.0.0": {
         "dependencies": {
           "Aspose.Slides.NET": "24.5.0",
+          "FreeSpire.Doc": "12.2.0",
           "FreeSpire.Presentation": "7.8.0",
           "LXP.Common": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.6.0",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.6.1",
           "NUnit3TestAdapter": "4.2.1",
-          "Spire.Doc": "12.5.5",
           "coverlet.collector": "6.0.0"
         },
         "runtime": {
@@ -64,6 +64,22 @@
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.5.1.0"
+          }
+        }
+      },
+      "FreeSpire.Doc/12.2.0": {
+        "dependencies": {
+          "HarfBuzzSharp": "2.6.1.5",
+          "System.Drawing.Common": "7.0.0",
+          "System.Security.Cryptography.Pkcs": "6.0.0",
+          "System.Security.Cryptography.Xml": "6.0.0",
+          "System.Security.Permissions": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Spire.Doc.dll": {
+            "assemblyVersion": "12.2.0.0",
+            "fileVersion": "12.2.0.3360"
           }
         }
       },
@@ -476,22 +492,6 @@
       },
       "NUnit.Analyzers/3.6.1": {},
       "NUnit3TestAdapter/4.2.1": {},
-      "Spire.Doc/12.5.5": {
-        "dependencies": {
-          "HarfBuzzSharp": "2.6.1.5",
-          "System.Drawing.Common": "7.0.0",
-          "System.Security.Cryptography.Pkcs": "6.0.0",
-          "System.Security.Cryptography.Xml": "6.0.0",
-          "System.Security.Permissions": "6.0.0",
-          "System.Text.Encoding.CodePages": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Spire.Doc.dll": {
-            "assemblyVersion": "12.5.5.0",
-            "fileVersion": "12.5.5.3360"
-          }
-        }
-      },
       "System.Buffers/4.5.0": {},
       "System.ComponentModel.Annotations/4.5.0": {},
       "System.Drawing.Common/7.0.0": {
@@ -570,9 +570,9 @@
         "dependencies": {
           "Aspose.Slides.NET": "24.5.0",
           "FluentValidation.AspNetCore": "11.3.0",
+          "FreeSpire.Doc": "12.2.0",
           "FreeSpire.Presentation": "7.8.0",
-          "Microsoft.AspNetCore.Http": "2.2.2",
-          "Spire.Doc": "12.5.5"
+          "Microsoft.AspNetCore.Http": "2.2.2"
         },
         "runtime": {
           "LXP.Common.dll": {}
@@ -620,6 +620,13 @@
       "sha512": "sha512-iWM0LS1MDYX06pcjMEQKqHirl2zkjHlNV23mEJSoR1IZI7KQmTa0RcTtGEJpj5+iHvBCfrzP2mYKM4FtRKVb+A==",
       "path": "fluentvalidation.dependencyinjectionextensions/11.5.1",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512"
+    },
+    "FreeSpire.Doc/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qqc9tf1utZAQoQPfOFUXTXT0C27XZAqathA8/8jk991r/fi/NlpG5wQFgWJZ6v2zFftouuaRI7jby0pjPCjaKw==",
+      "path": "freespire.doc/12.2.0",
+      "hashPath": "freespire.doc.12.2.0.nupkg.sha512"
     },
     "FreeSpire.Presentation/7.8.0": {
       "type": "package",
@@ -781,13 +788,6 @@
       "sha512": "sha512-kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
       "path": "nunit3testadapter/4.2.1",
       "hashPath": "nunit3testadapter.4.2.1.nupkg.sha512"
-    },
-    "Spire.Doc/12.5.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-zviVyt+Jk32FYC4qoMQB7kembd3WziR4dzHrFkTnjsm808mtAQJ8SPPTbepT8LlrKeCE26qvy+az4FnlNZFXGA==",
-      "path": "spire.doc/12.5.5",
-      "hashPath": "spire.doc.12.5.5.nupkg.sha512"
     },
     "System.Buffers/4.5.0": {
       "type": "package",

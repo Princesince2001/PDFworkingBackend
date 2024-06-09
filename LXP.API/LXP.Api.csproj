@@ -40,6 +40,7 @@
 
   <ItemGroup>
     <Folder Include="Converter\" />
+    <Folder Include="RandD\" />
     <Folder Include="ReviewDay\" />
     <Folder Include="Unfinal\" />
     <Folder Include="wwwroot\CourseThumbnailImages\" />
